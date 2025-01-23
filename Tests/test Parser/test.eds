@@ -1,0 +1,38 @@
+
+[FileInfo]
+CreatedBy=Nanotec Electronic GmbH & Co. KG
+ModifiedBy=Nanotec Electronic GmbH & Co. KG
+Description=Motion controller
+CreationTime=00:00AM
+CreationDate=01-01-2000
+ModificationTime=00:00AM
+ModificationDate=01-01-2000
+FileName=C5-E-2-09.eds
+FileVersion=1
+FileRevision=1
+EDSVersion=4.0
+
+[DeviceInfo]
+VendorName=Nanotec Electronic GmbH & Co. KG
+VendorNumber=0x26C
+ProductName=C5-E-2-09
+ProductNumber=0x11
+RevisionNumber=0x8A50000
+OrderCode=na
+BaudRate_10=1
+BaudRate_20=1
+BaudRate_50=1
+BaudRate_125=1
+BaudRate_250=1
+BaudRate_500=1
+BaudRate_800=0
+BaudRate_1000=1
+SimpleBootUpMaster=0
+SimpleBootUpSlave=0
+Granularity=8
+DynamicChannelsSupported=0
+CompactPDO=0
+GroupMessaging=0
+NrOfRXPDO=8
+NrOfTXPDO=8
+LSS_Supported=0
