@@ -14,7 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="EDS.lvlib" Type="Library" URL="../../Core/EDS.lvlib"/>
 		<Item Name="Parse.vi" Type="VI" URL="../Parse.vi"/>
-		<Item Name="test Parse.lvclass" Type="LVClass" URL="../test Parser/test Parse.lvclass"/>
+		<Item Name="test EDS.lvclass" Type="LVClass" URL="../test Parser/test EDS.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
