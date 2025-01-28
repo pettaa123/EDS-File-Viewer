@@ -7,5 +7,6 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Read EDS File Msg.lvclass" Type="LVClass" URL="../UI Actor/UI Actor Messages/Read EDS File Msg/Read EDS File Msg.lvclass"/>
 	</Item>
+	<Item Name="Custom UI Menu.rtm" Type="Document" URL="../UI Actor/UI Actor/Custom UI Menu.rtm"/>
 	<Item Name="UI Actor.lvclass" Type="LVClass" URL="../UI Actor/UI Actor/UI Actor.lvclass"/>
 </Library>
