@@ -23,10 +23,11 @@
 	<Item Name="Manufacturer Objects.lvclass" Type="LVClass" URL="../Manufacturer Objects/Manufacturer Objects.lvclass"/>
 	<Item Name="Object Dictionary.lvclass" Type="LVClass" URL="../Object Dictionary/Object Dictionary.lvclass"/>
 	<Item Name="Object Type.ctl" Type="VI" URL="../Object Type.ctl"/>
-	<Item Name="ODentry.lvclass" Type="LVClass" URL="../ODentry/ODentry.lvclass"/>
+	<Item Name="OD Entry.lvclass" Type="LVClass" URL="../OD Entry/OD Entry.lvclass"/>
+	<Item Name="OD Subentry.lvclass" Type="LVClass" URL="../OD Subentry/OD Subentry.lvclass"/>
 	<Item Name="Optional Objects.lvclass" Type="LVClass" URL="../Optional Objects/Optional Objects.lvclass"/>
 	<Item Name="PDO Mapping Type.ctl" Type="VI" URL="../PDO Mapping Type.ctl"/>
-	<Item Name="Section.lvclass" Type="LVClass" URL="../Object Entry/Section.lvclass"/>
+	<Item Name="Section.lvclass" Type="LVClass" URL="../OD Section/Section.lvclass"/>
 	<Item Name="Sorted Object Dictionary.lvclass" Type="LVClass" URL="../Sorted Object Dictionary/Sorted Object Dictionary.lvclass"/>
 	<Item Name="String to I16.vi" Type="VI" URL="../EDS/String to I16.vi"/>
 	<Item Name="Supported Objects.lvclass" Type="LVClass" URL="../Supported Objects/Supported Objects.lvclass"/>
