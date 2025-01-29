@@ -15,6 +15,7 @@
 	<Item Name="Access PDO.ctl" Type="VI" URL="../Access PDO.ctl"/>
 	<Item Name="Access SDO.ctl" Type="VI" URL="../Access SDO.ctl"/>
 	<Item Name="Access SRDO.ctl" Type="VI" URL="../Access SRDO.ctl"/>
+	<Item Name="Access Type.ctl" Type="VI" URL="../Access Type.ctl"/>
 	<Item Name="Data Type.ctl" Type="VI" URL="../Data Type.ctl"/>
 	<Item Name="EDS.lvclass" Type="LVClass" URL="../EDS/EDS.lvclass"/>
 	<Item Name="Get Base.vi" Type="VI" URL="../Get Base.vi"/>
