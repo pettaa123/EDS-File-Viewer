@@ -29,7 +29,10 @@
 	<Item Name="Optional Objects.lvclass" Type="LVClass" URL="../Optional Objects/Optional Objects.lvclass"/>
 	<Item Name="PDO Mapping Type.ctl" Type="VI" URL="../PDO Mapping Type.ctl"/>
 	<Item Name="Sorted Object Dictionary.lvclass" Type="LVClass" URL="../Sorted Object Dictionary/Sorted Object Dictionary.lvclass"/>
+	<Item Name="String to Byte.vi" Type="VI" URL="../String to Byte.vi"/>
 	<Item Name="String to I16.vi" Type="VI" URL="../EDS/String to I16.vi"/>
+	<Item Name="String to Int.vi" Type="VI" URL="../EDS/String to Int.vi"/>
+	<Item Name="String to U32.vi" Type="VI" URL="../EDS/String to U32.vi"/>
 	<Item Name="Supported Objects.lvclass" Type="LVClass" URL="../Supported Objects/Supported Objects.lvclass"/>
 	<Item Name="TypeDefinitions.lvclass" Type="LVClass" URL="../TypeDefinitions/TypeDefinitions.lvclass"/>
 </Library>

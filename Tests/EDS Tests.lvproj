@@ -14,7 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="EDS.lvlib" Type="Library" URL="../../Core/EDS.lvlib"/>
 		<Item Name="Parse.vi" Type="VI" URL="../Parse.vi"/>
-		<Item Name="Test EDS.lvclass" Type="LVClass" URL="../test Parser/Test EDS.lvclass"/>
+		<Item Name="test EDS.lvclass" Type="LVClass" URL="../test Parser/test EDS.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
