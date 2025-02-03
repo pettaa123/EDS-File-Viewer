@@ -13,7 +13,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="EDS.lvlib" Type="Library" URL="../../Core/EDS.lvlib"/>
-		<Item Name="Parse.vi" Type="VI" URL="../Parse.vi"/>
 		<Item Name="test EDS.lvclass" Type="LVClass" URL="../test Parser/test EDS.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
