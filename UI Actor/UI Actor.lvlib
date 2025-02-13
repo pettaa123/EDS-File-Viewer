@@ -5,6 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Populate Attribute Details Msg.lvclass" Type="LVClass" URL="../UI Actor/UI Actor Messages/Populate Attribute Details Msg/Populate Attribute Details Msg.lvclass"/>
+		<Item Name="Populate Attributes Table Msg.lvclass" Type="LVClass" URL="../UI Actor/UI Actor Messages/Populate Attributes Table Msg/Populate Attributes Table Msg.lvclass"/>
 		<Item Name="Read EDS File Msg.lvclass" Type="LVClass" URL="../UI Actor/UI Actor Messages/Read EDS File Msg/Read EDS File Msg.lvclass"/>
 	</Item>
 	<Item Name="Custom UI Menu.rtm" Type="Document" URL="../UI Actor/UI Actor/Custom UI Menu.rtm"/>

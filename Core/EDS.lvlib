@@ -41,11 +41,8 @@
 	<Item Name="Dictionary.lvclass" Type="LVClass" URL="../Object Dictionary/Dictionary.lvclass"/>
 	<Item Name="EDS.lvclass" Type="LVClass" URL="../EDS/EDS.lvclass"/>
 	<Item Name="Key Name.lvclass" Type="LVClass" URL="../Keyname/Key Name.lvclass"/>
-	<Item Name="Mandatory Objects.lvclass" Type="LVClass" URL="../Mandatory Objects/Mandatory Objects.lvclass"/>
-	<Item Name="Manufacturer Objects.lvclass" Type="LVClass" URL="../Manufacturer Objects/Manufacturer Objects.lvclass"/>
 	<Item Name="OD Entry.lvclass" Type="LVClass" URL="../OD Entry/OD Entry.lvclass"/>
 	<Item Name="OD Sub-Entry.lvclass" Type="LVClass" URL="../OD Sub-Entry/OD Sub-Entry.lvclass"/>
-	<Item Name="Optional Objects.lvclass" Type="LVClass" URL="../Optional Objects/Optional Objects.lvclass"/>
 	<Item Name="Section Name.lvclass" Type="LVClass" URL="../Section Name/Section Name.lvclass"/>
 	<Item Name="Section.lvclass" Type="LVClass" URL="../OD Section/Section.lvclass"/>
 	<Item Name="Sorted Object Dictionary.lvclass" Type="LVClass" URL="../Sorted Object Dictionary/Sorted Object Dictionary.lvclass"/>

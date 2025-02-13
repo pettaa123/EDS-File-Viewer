@@ -84,6 +84,10 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Get Mandatory Objects.vi" Type="VI" URL="../../Core/EDS/Get Mandatory Objects.vi"/>
+			<Item Name="Mandatory Objects.lvclass" Type="LVClass" URL="../../Core/Mandatory Objects/Mandatory Objects.lvclass"/>
+			<Item Name="Manufacturer Objects.lvclass" Type="LVClass" URL="../../Core/Manufacturer Objects/Manufacturer Objects.lvclass"/>
+			<Item Name="Optional Objects.lvclass" Type="LVClass" URL="../../Core/Optional Objects/Optional Objects.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
