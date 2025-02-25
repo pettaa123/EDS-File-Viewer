@@ -112,9 +112,6 @@
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Mandatory Objects.lvclass" Type="LVClass" URL="../Core/Mandatory Objects/Mandatory Objects.lvclass"/>
-			<Item Name="Manufacturer Objects.lvclass" Type="LVClass" URL="../Core/Manufacturer Objects/Manufacturer Objects.lvclass"/>
-			<Item Name="Optional Objects.lvclass" Type="LVClass" URL="../Core/Optional Objects/Optional Objects.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
