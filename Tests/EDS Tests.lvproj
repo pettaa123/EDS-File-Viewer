@@ -12,8 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="EDS.lvlib" Type="Library" URL="../../Core/EDS.lvlib"/>
-		<Item Name="test EDS.lvclass" Type="LVClass" URL="../test Parser/test EDS.lvclass"/>
+		<Item Name="Electronic Datasheet.lvlib" Type="Library" URL="../../Core/Electronic Datasheet.lvlib"/>
+		<Item Name="test Electronic Datasheet.lvclass" Type="LVClass" URL="../Source/test Electronic Datasheet.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
@@ -84,10 +84,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Get Mandatory Objects.vi" Type="VI" URL="../../Core/EDS/Get Mandatory Objects.vi"/>
-			<Item Name="Mandatory Objects.lvclass" Type="LVClass" URL="../../Core/Mandatory Objects/Mandatory Objects.lvclass"/>
-			<Item Name="Manufacturer Objects.lvclass" Type="LVClass" URL="../../Core/Manufacturer Objects/Manufacturer Objects.lvclass"/>
-			<Item Name="Optional Objects.lvclass" Type="LVClass" URL="../../Core/Optional Objects/Optional Objects.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

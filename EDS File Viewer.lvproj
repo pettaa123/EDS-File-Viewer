@@ -4,7 +4,9 @@
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">24.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="TopVI" Type="Xml">..\Viewer Actor\Viewer Actor\Launcher.vi</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -15,22 +17,23 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controls" Type="Folder">
-			<Item Name="Device Info.ctl" Type="VI" URL="../UI Actor/UI Actor/Controls/Device Info.ctl"/>
-			<Item Name="Device Settings.ctl" Type="VI" URL="../UI Actor/UI Actor/Controls/Device Settings.ctl"/>
-			<Item Name="File Info.ctl" Type="VI" URL="../UI Actor/UI Actor/Controls/File Info.ctl"/>
-			<Item Name="Supported Baudrates.ctl" Type="VI" URL="../UI Actor/UI Actor/Controls/Supported Baudrates.ctl"/>
+			<Item Name="Device Info.ctl" Type="VI" URL="../source/UI Actor/UI Actor/Controls/Device Info.ctl"/>
+			<Item Name="Device Settings.ctl" Type="VI" URL="../source/UI Actor/UI Actor/Controls/Device Settings.ctl"/>
+			<Item Name="File Info.ctl" Type="VI" URL="../source/UI Actor/UI Actor/Controls/File Info.ctl"/>
+			<Item Name="Supported Baudrates.ctl" Type="VI" URL="../source/UI Actor/UI Actor/Controls/Supported Baudrates.ctl"/>
 		</Item>
-		<Item Name="Core" Type="Folder">
-			<Item Name="EDS.lvlib" Type="Library" URL="../Core/EDS.lvlib"/>
-		</Item>
+		<Item Name="Electronic Datasheet.lvlib" Type="Library" URL="../Core/Electronic Datasheet.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Viewer Actor/Viewer Actor/Launcher.vi"/>
-		<Item Name="UI Actor.lvlib" Type="Library" URL="../UI Actor/UI Actor.lvlib"/>
+		<Item Name="PDO Grid.lvlib" Type="Library" URL="../source/PDO Grid.lvlib"/>
+		<Item Name="SourceGrid.lvlib" Type="Library" URL="../../Sourcegrid-LabVIEW/source/SourceGrid.lvlib"/>
+		<Item Name="UI Actor.lvlib" Type="Library" URL="../source/UI Actor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name=".NET Object to Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object to Variant.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -103,6 +106,7 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="To .NET Object.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/To .NET Object.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
@@ -111,10 +115,19 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="ICloseable.lvclass" Type="LVClass" URL="../../Sourcegrid-LabVIEW/source/ICloseable/ICloseable.lvclass"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SourceGrid.dll" Type="Document" URL="../../Sourcegrid-LabVIEW/dll/SourceGrid.dll"/>
+			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="System.Drawing.Color.ctl" Type="VI" URL="../../Sourcegrid-LabVIEW/source/System.Drawing.Color.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
