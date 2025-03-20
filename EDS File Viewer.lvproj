@@ -27,6 +27,7 @@
 		<Item Name="PDO Grid.lvlib" Type="Library" URL="../source/PDO Grid.lvlib"/>
 		<Item Name="SourceGrid.lvlib" Type="Library" URL="../../Sourcegrid-LabVIEW/source/SourceGrid.lvlib"/>
 		<Item Name="UI Actor.lvlib" Type="Library" URL="../source/UI Actor.lvlib"/>
+		<Item Name="Communication Parameters.ctl" Type="VI" URL="../source/UI Actor/UI Actor/Controls/Communication Parameters.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
@@ -113,9 +114,34 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Rendezvous RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous RefNum"/>
+				<Item Name="Create Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create Rendezvous.vi"/>
+				<Item Name="Rendezvous Name &amp; Ref DB Action.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous Name &amp; Ref DB Action.ctl"/>
+				<Item Name="Rendezvous Name &amp; Ref DB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Rendezvous Name &amp; Ref DB.vi"/>
+				<Item Name="Not A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Not A Rendezvous.vi"/>
+				<Item Name="RendezvousDataCluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/RendezvousDataCluster.ctl"/>
+				<Item Name="Create New Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Create New Rendezvous.vi"/>
+				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
+				<Item Name="GetNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/GetNamedRendezvousPrefix.vi"/>
+				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
+				<Item Name="Release Waiting Procs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Release Waiting Procs.vi"/>
+				<Item Name="Destroy Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy Rendezvous.vi"/>
+				<Item Name="Destroy A Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Destroy A Rendezvous.vi"/>
+				<Item Name="RemoveNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/RemoveNamedRendezvousPrefix.vi"/>
+				<Item Name="Generic Object Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Generic Object Serializer/Generic Object Serializer.lvclass"/>
+				<Item Name="Serialization Binder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Serialization Binder/Serialization Binder.lvclass"/>
+				<Item Name="Default Serialization Binder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Default Serialization Binder/Default Serialization Binder.lvclass"/>
+				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
+				<Item Name="Composition.lvlib" Type="Library" URL="/&lt;vilib&gt;/PNR/LabVIEW Composition/Composition/Composition.lvlib"/>
+				<Item Name="Single String To Qualified Name Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Single String To Qualified Name Array.vi"/>
+				<Item Name="Edit LVLibs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/EditLVLibs/Edit LVLibs.lvlib"/>
+				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
+				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
+				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="__JSONtext__Variant to Flattened String (special).vi" Type="VI" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Vendor/__JSONtext__Variant to Flattened String (special).vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="ICloseable.lvclass" Type="LVClass" URL="../../Sourcegrid-LabVIEW/source/ICloseable/ICloseable.lvclass"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -127,7 +153,9 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="System.Drawing.Color.ctl" Type="VI" URL="../../Sourcegrid-LabVIEW/source/System.Drawing.Color.ctl"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

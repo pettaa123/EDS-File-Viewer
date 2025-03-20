@@ -1,6 +1,13 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="24008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)S!!!*Q(C=\&gt;7R=?*!&amp;-&lt;R$Y_$3]E&gt;?'DB*6?!7K#$G^?#5A5/+-%POZA/'&amp;JY,&gt;!#,?D_O\T""'!3__&lt;G"ME,YN0OPB]L)5N^_S%^;\[X\4\&gt;0M[XLK@OFY-OTJ`;P*NPD;`TO]O;6]&lt;8]=X[]`8RN`RX.DWWR`:`&lt;^0&gt;(]'X`QY7;A]C7N+#ZD24+TMH?:)H?:)H?:)(?:!(?:!(?:!\O:-\O:-\O:-&lt;O:%&lt;O:%&lt;O:(XH6TE)B=ZJ+2Y5CC:.*EA[1R&amp;S5PC34S**`(Q59EH]33?R*.Y[+,%EXA34_**0!R4YEE]C3@R*"[G[J,M/TG?R-0U#DS"*`!%HM"$317?!"!5#S9/*I'BY'2Q%(A#4_$B5)%H]!3?Q".Y/+X!%XA#4_!*0!TJKR*&gt;UX:S0%QDR_.Y()`D=4R-,=@D?"S0YX%]F*0D=4Q/QCHI4!Z"TC#HA`0"]4A?XO2Y()`D=4S/BV0^#HF@G;:J/TE?QW.Y$)`B-4R-)=.D?!S0Y4%]4#P$9XA-D_%R0*33Y4%]BM?!'%5J,W-S9[$2S1A-$X`^&lt;L&amp;_F;*,L/^3X&lt;SKGV*VM[FO)N8.I&lt;LIKIOJOECKR6=NKGKR6)OA_H)KN!KD+K);X$LKS/O"NK&gt;N;2P;3&amp;P4"NK+NGR$P\DD]8D5Y8$1@L`8&gt;LP6:L02/)Z;L^=;BE'LV5L,Z@,]'(BF0T]14M_FC?.J@&amp;F-Q_`&amp;^/O&gt;^T=_`VSU`#`]@`Y(HIV[UG5.VOA0"NGL(Q!!!!!</Property>
+	<Property Name="EndevoGOOP_ColorFrame" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_ColorHeader" Type="UInt">4944486</Property>
+	<Property Name="EndevoGOOP_ColorPrivate" Type="UInt">16777215</Property>
+	<Property Name="EndevoGOOP_ColorPublic" Type="UInt">16318208</Property>
+	<Property Name="EndevoGOOP_ColorTextBody" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_ColorTextHeader" Type="UInt">16777215</Property>
+	<Property Name="EndevoGOOP_FrameThickness" Type="UInt">1</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)L!!!*Q(C=\&gt;7R=&gt;N!%)8B:Y]#J_T!QR;W"&lt;&lt;!W.G["!:/(++&amp;.YK:M!55Y'2&lt;9/3=,=!`TDMS:S3+C?XR?(41EM1$\O\D!93EU4Z)$VLON?/L\&gt;&gt;R"BRV\.&gt;HRX_7DLL6PY]@L\K`V,]`XZR@,`?`Z&lt;`4^.&lt;?WP`&gt;PN\^%@TRX]%\L1]CKCB43987;:=C,`)C,`)C,X+4G^TE*D?ZS:-]S:-]S:-]S9-]S)-]S)-]S-&gt;',H+2CRR3-8ER54&amp;I-5"R-B16,Y7H]"3?QM/O#E`B+4S&amp;J`"QCAJ0Y3E]B;@QU%W&amp;J`!5HM*4?"BK3'JMZ(A+$]0,?)T(?)T(?*B3RG-!:D)TM"E%BMR"]]&amp;YD-&gt;Y_#DD-2\D-2\DY&lt;#-RXC-RXC-BSZD64QU[U;/BW'5?"*0YEE]C9?BF8A34_**0)G([:2Y%E_#3#:-"I?AJ&amp;.S1L+4?")0&lt;UI]C3@R**\%Q[&amp;RB8+MT+J:.X)]A3@Q"*\!%XA91I%H]!3?Q".Y'&amp;;"*`!%HM!4?*B+A3@Q"*Y!%ET+^!I'#TI'*Q6"Y/&amp;PX#URLJ+(*-9G^=WLPCH6.ZP[*F,@(/K,LL[9[IOE8HTVIKI83\U)[C_H2KMR[EH5H&gt;=4&gt;?(V4-X5C:KI!\7H&gt;N37WKR&gt;@`/*F]N&amp;Z`.:]TTL&gt;$JJGC9&gt;$A@N^XPN&gt;DNNNVNN.JOHR]"(NK=(QN6T;@K_,0/H:8H]T0M8^L`^L@`0`]#T5?^V01&gt;L^!-S6YXA!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
@@ -19,9 +26,12 @@
 		<Item Name="9605 Field not supported by ObjectType--error.vi" Type="VI" URL="../errors/9605 Field not supported by ObjectType--error.vi"/>
 		<Item Name="9606 Lower Bound not less than Upper Bound--error.vi" Type="VI" URL="../errors/9606 Lower Bound not less than Upper Bound--error.vi"/>
 		<Item Name="9607 Invalid Cast--error.vi" Type="VI" URL="../errors/9607 Invalid Cast--error.vi"/>
-		<Item Name="9608 Invalid PDO Communication Parameter Type--error.vi" Type="VI" URL="../9608 Invalid PDO Communication Parameter Type--error.vi"/>
+		<Item Name="9608 Invalid PDO Communication Parameter Type--error.vi" Type="VI" URL="../errors/9608 Invalid PDO Communication Parameter Type--error.vi"/>
 		<Item Name="9609 Value undefined for key--error.vi" Type="VI" URL="../errors/9609 Value undefined for key--error.vi"/>
 		<Item Name="9610 Missing mandatory sub-index--error.vi" Type="VI" URL="../errors/9610 Missing mandatory sub-index--error.vi"/>
+		<Item Name="9611 Section not found--error.vi" Type="VI" URL="../errors/9611 Section not found--error.vi"/>
+		<Item Name="9612 Invalid Value for PDO Mapping--error.vi" Type="VI" URL="../errors/9612 Invalid Value for PDO Mapping--error.vi"/>
+		<Item Name="9613 Empty Section Name--error.vi" Type="VI" URL="../errors/9613 Empty Section Name--error.vi"/>
 	</Item>
 	<Item Name="Info Section" Type="Folder">
 		<Item Name="Device Info.lvclass" Type="LVClass" URL="../Device Info/Device Info.lvclass"/>
@@ -53,6 +63,7 @@
 		<Item Name="String to U32.vi" Type="VI" URL="../EDS/String to U32.vi"/>
 	</Item>
 	<Item Name="Dictionary.lvclass" Type="LVClass" URL="../Object Dictionary/Dictionary.lvclass"/>
+	<Item Name="Dummy Entry.lvclass" Type="LVClass" URL="../Dummy Entry/Dummy Entry.lvclass"/>
 	<Item Name="Electronic Datasheet.lvclass" Type="LVClass" URL="../../Electronic Datasheet/Electronic Datasheet.lvclass"/>
 	<Item Name="Key Name.lvclass" Type="LVClass" URL="../Keyname/Key Name.lvclass"/>
 	<Item Name="OD Entry.lvclass" Type="LVClass" URL="../OD Entry/OD Entry.lvclass"/>
