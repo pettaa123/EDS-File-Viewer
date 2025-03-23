@@ -1,36 +1,81 @@
-[609A]
-ParameterName=Homing acceleration
-ObjectType=0x7
-DataType=0x0007
-AccessType=rww
-DefaultValue=500
-PDOMapping=1
+[DeviceInfo]
 
-[60A2]
-ParameterName=Jerk factor
+[FileInfo]
+
+[1003]
+ParameterName=Pre-defined error field
 ObjectType=0x8
-SubNumber=0x03
+SubNumber=0x09
 
-[60A2sub0]
-ParameterName=Number of entries
+[1003sub0]
+ParameterName=Number of errors
 ObjectType=0x7
 DataType=0x0005
-AccessType=const
-DefaultValue=2
+AccessType=rw
+DefaultValue=0x00
 PDOMapping=0
+ObjFlags=1
 
-[60A2sub1]
-ParameterName=Numerator
+[1003sub1]
+ParameterName=1st Standard error field
 ObjectType=0x7
 DataType=0x0007
-AccessType=rww
-DefaultValue=1
-PDOMapping=1
+AccessType=ro
+PDOMapping=0
+ObjFlags=1
 
-[60A2sub2]
-ParameterName=Divisor
+[1003sub2]
+ParameterName=2nd Standard error field
 ObjectType=0x7
 DataType=0x0007
-AccessType=rww
-DefaultValue=1
-PDOMapping=1
+AccessType=ro
+PDOMapping=0
+ObjFlags=1
+
+[1003sub3]
+ParameterName=3th Standard error field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+ObjFlags=1
+
+[1003sub4]
+ParameterName=4th Standard error field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+ObjFlags=1
+
+[1003sub5]
+ParameterName=5th Standard error field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+ObjFlags=1
+
+[1003sub6]
+ParameterName=6th Standard error field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+ObjFlags=1
+
+[1003sub7]
+ParameterName=7th Standard error field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+ObjFlags=1
+
+[1003sub8]
+ParameterName=8th Standard error field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+ObjFlags=1

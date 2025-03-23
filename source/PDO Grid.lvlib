@@ -16,5 +16,8 @@
 	<Item Name="PDO Mapping Column Header.lvclass" Type="LVClass" URL="../PDO Mapping ColumnHeader/PDO Mapping Column Header.lvclass"/>
 	<Item Name="PDO Mapping.lvclass" Type="LVClass" URL="../PDO Mapping/PDO Mapping.lvclass"/>
 	<Item Name="PDO Slot.lvclass" Type="LVClass" URL="../PDO Slot/PDO Slot.lvclass"/>
-	<Item Name="TX PDO Mapping.lvclass" Type="LVClass" URL="../TPDO Mapping/TX PDO Mapping.lvclass"/>
+	<Item Name="RX PDO Communication Parameter.lvclass" Type="LVClass" URL="../RPDO Communication Parameter/RX PDO Communication Parameter.lvclass"/>
+	<Item Name="RX PDO Mapping.lvclass" Type="LVClass" URL="../RX PDO Mapping/RX PDO Mapping.lvclass"/>
+	<Item Name="TX PDO Communication Parameter.lvclass" Type="LVClass" URL="../TPDO Communication Parameter/TX PDO Communication Parameter.lvclass"/>
+	<Item Name="TX PDO Mapping.lvclass" Type="LVClass" URL="../TX PDO Mapping/TX PDO Mapping.lvclass"/>
 </Library>

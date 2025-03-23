@@ -20,6 +20,7 @@
 		<Item Name="TPDO Transmission Type.ctl" Type="VI" URL="../TPDO Transmission Type.ctl"/>
 	</Item>
 	<Item Name="errors" Type="Folder">
+		<Item Name="9601 Error Retrieving Base from Integer String--error.vi" Type="VI" URL="../9601 Error Retrieving Base from Integer String--error.vi"/>
 		<Item Name="9602 Mandatory field missing for ObjectType--error.vi" Type="VI" URL="../errors/9602 Mandatory field missing for ObjectType--error.vi"/>
 		<Item Name="9603 Keyname empty--error.vi" Type="VI" URL="../errors/9603 Keyname empty--error.vi"/>
 		<Item Name="9604 String to Integer Overflow--error.vi" Type="VI" URL="../errors/9604 String to Integer Overflow--error.vi"/>
@@ -32,6 +33,7 @@
 		<Item Name="9611 Section not found--error.vi" Type="VI" URL="../errors/9611 Section not found--error.vi"/>
 		<Item Name="9612 Invalid Value for PDO Mapping--error.vi" Type="VI" URL="../errors/9612 Invalid Value for PDO Mapping--error.vi"/>
 		<Item Name="9613 Empty Section Name--error.vi" Type="VI" URL="../errors/9613 Empty Section Name--error.vi"/>
+		<Item Name="9614 Invalid Access Type--errror.vi" Type="VI" URL="../Object Type/9614 Invalid Access Type--errror.vi"/>
 	</Item>
 	<Item Name="Info Section" Type="Folder">
 		<Item Name="Device Info.lvclass" Type="LVClass" URL="../Device Info/Device Info.lvclass"/>
@@ -51,16 +53,16 @@
 		<Item Name="Access SDO.ctl" Type="VI" URL="../Access SDO.ctl"/>
 		<Item Name="Access SRDO.ctl" Type="VI" URL="../Access SRDO.ctl"/>
 		<Item Name="Access Type.ctl" Type="VI" URL="../Access Type.ctl"/>
-		<Item Name="PDO Mapping Type.ctl" Type="VI" URL="../PDO Mapping Type.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Find Value in Key-Value Arrays.vi" Type="VI" URL="../Find Value in Key-Value Arrays.vi"/>
 		<Item Name="Get Base.vi" Type="VI" URL="../Get Base.vi"/>
-		<Item Name="String to I16.vi" Type="VI" URL="../EDS/String to I16.vi"/>
-		<Item Name="String to I32.vi" Type="VI" URL="../EDS/String to I32.vi"/>
-		<Item Name="String to U8.vi" Type="VI" URL="../EDS/String to U8.vi"/>
-		<Item Name="String to U16.vi" Type="VI" URL="../EDS/String to U16.vi"/>
-		<Item Name="String to U32.vi" Type="VI" URL="../EDS/String to U32.vi"/>
+		<Item Name="String to Bool.vi" Type="VI" URL="../../Electronic Datasheet/String to Bool.vi"/>
+		<Item Name="String to I16.vi" Type="VI" URL="../../Electronic Datasheet/String to I16.vi"/>
+		<Item Name="String to I32.vi" Type="VI" URL="../../Electronic Datasheet/String to I32.vi"/>
+		<Item Name="String to U8.vi" Type="VI" URL="../../Electronic Datasheet/String to U8.vi"/>
+		<Item Name="String to U16.vi" Type="VI" URL="../../Electronic Datasheet/String to U16.vi"/>
+		<Item Name="String to U32.vi" Type="VI" URL="../../Electronic Datasheet/String to U32.vi"/>
 	</Item>
 	<Item Name="Dictionary.lvclass" Type="LVClass" URL="../Object Dictionary/Dictionary.lvclass"/>
 	<Item Name="Dummy Entry.lvclass" Type="LVClass" URL="../Dummy Entry/Dummy Entry.lvclass"/>
