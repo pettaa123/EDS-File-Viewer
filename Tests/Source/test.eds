@@ -1,81 +1,93 @@
-[DeviceInfo]
-
 [FileInfo]
 
-[1003]
-ParameterName=Pre-defined error field
-ObjectType=0x8
-SubNumber=0x09
+[DeviceInfo]
 
-[1003sub0]
-ParameterName=Number of errors
+[60C2]
+ParameterName=Interpolation time period
+ObjectType=0x9
+SubNumber=0x03
+
+[60C2sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=const
+DefaultValue=2
+PDOMapping=0
+
+[60C2sub1]
+ParameterName=Interpolation time period value
 ObjectType=0x7
 DataType=0x0005
 AccessType=rw
-DefaultValue=0x00
+DefaultValue=1
 PDOMapping=0
-ObjFlags=1
 
-[1003sub1]
-ParameterName=1st Standard error field
+[60C2sub2]
+ParameterName=Interpolation time index
+ObjectType=0x7
+DataType=0x0002
+AccessType=rw
+DefaultValue=-3
+PDOMapping=0
+
+[60C4]
+ParameterName=Interpolation data configuration
+ObjectType=0x9
+SubNumber=0x07
+
+[60C4sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=const
+DefaultValue=6
+PDOMapping=0
+
+[60C4sub1]
+ParameterName=MaximumBufferSize
 ObjectType=0x7
 DataType=0x0007
 AccessType=ro
+DefaultValue=1
 PDOMapping=0
-ObjFlags=1
 
-[1003sub2]
-ParameterName=2nd Standard error field
+[60C4sub2]
+ParameterName=ActualBufferSize
 ObjectType=0x7
 DataType=0x0007
-AccessType=ro
+AccessType=rw
+DefaultValue=1
 PDOMapping=0
-ObjFlags=1
 
-[1003sub3]
-ParameterName=3th Standard error field
+[60C4sub3]
+ParameterName=BufferOrganization
 ObjectType=0x7
-DataType=0x0007
-AccessType=ro
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
 PDOMapping=0
-ObjFlags=1
 
-[1003sub4]
-ParameterName=4th Standard error field
+[60C4sub4]
+ParameterName=BufferPosition
 ObjectType=0x7
-DataType=0x0007
-AccessType=ro
+DataType=0x0006
+AccessType=rw
+DefaultValue=1
 PDOMapping=0
-ObjFlags=1
 
-[1003sub5]
-ParameterName=5th Standard error field
+[60C4sub5]
+ParameterName=SizeOfDataRecord
 ObjectType=0x7
-DataType=0x0007
-AccessType=ro
+DataType=0x0005
+AccessType=wo
+DefaultValue=4
 PDOMapping=0
-ObjFlags=1
 
-[1003sub6]
-ParameterName=6th Standard error field
+[60C4sub6]
+ParameterName=BufferClear
 ObjectType=0x7
-DataType=0x0007
-AccessType=ro
+DataType=0x0005
+AccessType=wo
+DefaultValue=0
 PDOMapping=0
-ObjFlags=1
-
-[1003sub7]
-ParameterName=7th Standard error field
-ObjectType=0x7
-DataType=0x0007
-AccessType=ro
-PDOMapping=0
-ObjFlags=1
-
-[1003sub8]
-ParameterName=8th Standard error field
-ObjectType=0x7
-DataType=0x0007
-AccessType=ro
-PDOMapping=0
-ObjFlags=1
