@@ -16,6 +16,7 @@
 	<Item Name="controls" Type="Folder">
 		<Item Name="Data Type.ctl" Type="VI" URL="../Data Type.ctl"/>
 		<Item Name="Object Type.ctl" Type="VI" URL="../Object Type.ctl"/>
+		<Item Name="PDO Mapping Type.ctl" Type="VI" URL="../PDO Mapping Type.ctl"/>
 		<Item Name="TPDO Transmission Type.ctl" Type="VI" URL="../TPDO Transmission Type.ctl"/>
 	</Item>
 	<Item Name="errors" Type="Folder">
