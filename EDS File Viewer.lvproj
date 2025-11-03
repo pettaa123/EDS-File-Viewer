@@ -24,6 +24,7 @@
 		</Item>
 		<Item Name="Electronic Datasheet.lvlib" Type="Library" URL="../source/Core/Electronic Datasheet.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+		<Item Name="PDO Grid.lvlib" Type="Library" URL="../source/PDO Grid.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
